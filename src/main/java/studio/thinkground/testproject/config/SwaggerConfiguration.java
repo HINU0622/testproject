@@ -32,8 +32,8 @@ public class SwaggerConfiguration {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Hanger API")
-                        .description("Hanger 프로젝트 API 명세서입니다.")
+                .info(new Info().title("Test API with Swagger")
+                        .description("테스트 프로젝트 API 명세서입니다.")
                         .version("v0.0.1"));
     }
 }
